@@ -1,0 +1,272 @@
+*{
+    margin: 10;
+    padding: 10;
+    background-color: rgb(35, 4, 53);
+}
+html{
+  scroll-behavior: smooth;
+}
+.typing-container {
+    font-size: 35px;
+    font-family: monospace;
+    white-space: nowrap;
+    display: inline-block;
+    color: #fff;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(35, 4, 53);
+    font-family: Arial, sans-serif;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 30px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li a {
+    color: grey;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: white;
+  }
+
+  .container{
+    color: rgb(201, 196, 196);
+  }
+
+  div img{
+    margin-top: -120px;
+  }
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+  }
+
+  .about-section {
+    display: flex;
+    flex-direction: column; /* Stack vertically */
+    align-items: flex-start; /* Left-align text */
+    margin-left: 20px; /* Or whatever spacing you need */
+  }
+  
+  .about-title {
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 10px; /* Spacing between heading and paragraph */
+    margin-top: -100px;
+  }
+  
+  .about-description {
+    font-size: 16px;
+    color: white; /* Or any color that fits your design */
+    max-width: 600px;
+  } 
+  
+  h2{
+    color:  rgb(167, 247, 49);;
+  }
+
+  .skills{
+    color: #fff;
+  }
+
+  .education{
+    color: #fff;
+  }
+
+ .research-title{
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+  color: #fff;
+ }
+ 
+ .NIT-title{
+  color: rgb(167, 247, 49);
+ }
+
+ .research{
+  color: #fff;
+ }
+
+ .IPS-title{
+  color:  rgb(167, 247, 49);
+ }
+
+.IPS{
+  color: #fff;
+}
+
+.ISIC-title{
+  color: rgb(167, 247, 49);
+}
+
+.ISIC{
+  color: #fff;
+}
+
+.non-title{
+  color: rgb(167, 247, 49);
+}
+
+.non{
+  color: #fff;
+}
+
+.Intern-title{
+  color: rgb(167, 247, 49);
+}
+
+.Intern{
+  color: #fff;
+}
+
+.Guest-title{
+  color:  rgb(167, 247, 49);;
+}
+
+.Guest{
+  color: white;
+}
+
+.projecttitle{
+  color: white;
+}
+
+.anime-title{
+  color: rgb(167, 247, 49) ;
+}
+
+.anime{
+  color: #fff;
+}
+
+.Blood-title{
+  color: rgb(167, 247, 49);
+}
+
+.Blood{
+  color: #fff;
+}
+
+.technicaltitle{
+  color: #fff;
+}
+
+.award-title{
+  color: #fff;
+}
+
+.awards{
+  color: #fff;
+}
+
+.connect-title{
+  color: #fff;
+}
+
+.A{
+  color: rgb(172, 166, 166);
+}
+
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(35, 4, 53);
+  color: white;
+  padding: 40px;
+  border-radius: 15px;
+  max-width: 1000px;
+  margin: auto;
+  gap: 40px;
+}
+
+.contact-left,
+.contact-right {
+  flex: 1;
+  border: 2px #ffff;
+}
+
+.contact-left h2 {
+  margin-bottom: 10px;
+}
+
+.contact-left p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.social-icons a {
+  display: inline-block;
+  margin-right: 15px;
+  text-decoration: none;
+  color: #bbb;
+  font-size: 16px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  background-color: #9f5fff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    color: #f4f4f4
+    ;
+}
+
+.cursor {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 35px;
+    animation: blink 0.8s infinite;
+    color: rgb(167, 247, 49);
+}
+
+@keyframes blink {
+  0%, 100%{ opacity: 1;}
+    50% { opacity: 0; }
+}
+.first-line {
+    display: block; /* Forces it onto the first line */
+    font-size: 35px;
+    color: #fff;
+}
+
+.second-line {
+    display: block; /* Moves typing words to second line */
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(167, 247, 49);
+}
