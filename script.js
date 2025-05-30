@@ -1,4 +1,4 @@
-const words = ["MLOps Engineer...", "ML Engineer...", "Data Sciencist...", "Backend Developer..."];
+const words = ["MLOps Engineer...", "ML Engineer...", "Data Scientist...", "Backend Developer..."];
 let currentWordIndex = 0;
 let currentCharIndex = 0;
 let isDeleting = false;
@@ -14,7 +14,7 @@ function typeEffect() {
     typingSpeed = 50; // faster when deleting
   } else {
     currentCharIndex++;
-    typingSpeed = Math.random() * (120 - 80) + 80; // random typing speed
+    typingSpeed = (Math.random() * 40) + 80; // random typing speed
   }
 
   typingText.textContent = currentWord.substring(0, currentCharIndex);
